@@ -1,0 +1,39 @@
+import hsa.*;
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+import java.awt.image.*;
+import javax.imageio.*;
+
+public class utils{
+  
+  
+  
+   
+  public static void pause(int intMS){
+    try{
+      Thread.sleep(intMS);
+    }catch(InterruptedException e){
+    }
+  }
+  
+  
+ 
+  
+  
+  public static String[][] loadValues(String map){
+    
+    String strString[][];
+    String strSplit[];
+    String strCode;
+    int intRow;
+    int intCol;
+    TextInputFile map;
+    
+    strString = new String[20][20];
+    
+    map = new TextInputFile(map +"map.txt");
+    for(intRow = 0, intRow <20;intRow++){
+      
+     strCode = map.readLine();
+     

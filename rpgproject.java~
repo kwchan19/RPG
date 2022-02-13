@@ -1,0 +1,51 @@
+import hsa.*;
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+import java.awt.image.*;
+import javax.imageio.*;
+
+public class rpgproject{
+  public static void main(String[] args){
+    
+    String strMapRow1;
+    String strMapRow2;
+    String strMapRow3;
+    String strMapRow4;
+    String strMapRow5;
+    String strMapRow6;
+    String strMapRow7;
+    String strMapRow8;
+    String strMapRow9;
+    String strMapRow10;
+    String strMapRow11;
+    String strMapRow12;
+    String strMapRow13;
+    String strMapRow14;
+      
+      //Text Input
+      TextInputFile Map;
+    
+    Console con = new Console();
+    
+    Map = new TextInputFile("map.txt");
+    
+    strMapRow1 = Map.readLine();
+    strMapRow2 = Map.readLine();
+    strMapRow3 = Map.readLine();
+    strMapRow4 = Map.readLine();
+    strMapRow5 = Map.readLine();
+    strMapRow6 = Map.readLine();
+    strMapRow7 = Map.readLine();
+    strMapRow8 = Map.readLine();
+    strMapRow9 = Map.readLine();
+    strMapRow10 = Map.readLine();
+    strMapRow11 = Map.readLine();
+    strMapRow12 = Map.readLine();
+    strMapRow13 = Map.readLine();
+    strMapRow14 = Map.readLine();
+    
+    Map.println("");
+    
+  }
+}
